@@ -31,7 +31,7 @@ class CrashlyticsAddLoggin {
         Crashlytics.sharedInstance().setObjectValue(value, forKey: forKey)
     }
     
-    // 以下katta使用例
+    // 以下 使用例
     func setUdidForCrashlytics(udid: String) {
         if !udid.isEmpty {
             Crashlytics.sharedInstance().setUserIdentifier("udid: " + udid)
